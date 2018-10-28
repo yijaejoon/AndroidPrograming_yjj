@@ -2,7 +2,6 @@ Android Progrmain 과제
 ======================
 
 ## GIT명령어
-------------
 
 ##### 1. 설정과초기화
 
@@ -229,3 +228,174 @@ Android Progrmain 과제
 
 - 원격 저장소를 제거하고 관련된 브랜치도 제거하기
   - git remote rm <원격 저장소>
+
+## markdown 문법
+
+#### 1.헤더
+
+- 큰제목
+    ~~~
+    큰제목
+    =============
+    ~~~
+    큰 제목
+    =============
+
+- 작은제목
+    ~~~
+    작은제목
+    -------------
+    ~~~
+    작은 제목
+    -------------
+
+- 글머리
+~~~
+# 글머리1
+## 글머리2
+### 글머리3
+#### 글머리4
+##### 글머리5
+###### 글머리6
+~~~
+# 글머리1
+## 글머리2
+### 글머리3
+#### 글머리4
+##### 글머리5
+###### 글머리6
+
+#### 2. 인용문
+```>``` 블럭인용문자를 이용한다.
+~~~
+> 인용문
+~~~
+> 인용문1
+>	> 인용문2
+>	>	> 인용문3
+
+이 안에서는 다른 마크다운 요소를 포함할 수 있다.
+> ### 글머리3
+> * 123
+>	~~~
+>	456
+>	~~~
+
+#### 3. 목록
+- 순서있는 목록(번호)
+순서있는 목록은 숫자와 점을 사용한다.
+~~~
+1. 첫번째
+2. 두번째
+3. 세번째
+~~~
+1. 첫번째
+2. 두번째
+3. 세번째
+
+
+- 순서없는 목록(글머리 기호)
+~~~
+* 가
+  * 나
+    * 다
+
++ 가
+  + 나
+    + 다
+
+- 가
+  - 나
+    - 다
+~~~
+* 가
+  * 나
+    * 다
+
++ 가
+  + 나
+    + 다
+
+- 가
+  - 나
+    - 다
+
+
+#### 4. 수평선
+
+~~~
+* * *
+
+***
+
+*****
+
+- - -
+
+---------------------------------------
+~~~
+
+* * *
+
+***
+
+*****
+
+- - -
+
+---------------------------------------
+
+
+#### 5. 링크
+
+- 참조링크
+
+~~~
+[link keyword][id]
+[id]: URL "Optional Title here"
+
+Link: [Google][googlelink]
+[googlelink]: https://google.com "Go google"
+~~~
+
+Link: [Google][googlelink]
+[googlelink]: https://google.com "Go google"
+
+- 인라인 링크
+~~~
+syntax: [Title](link)
+~~~
+Link: [Google](https://google.com, "google link")
+
+- 자동연결
+~~~
+<http://example.com/>
+<address@example.com>
+~~~
+
+<http://example.com/>
+<address@example.com>
+
+#### 6. 강조
+~~~
+*single asterisks*
+_single underscores_
+**double asterisks**
+__double underscores__
+++underline++
+~~cancelline~~
+~~~
+*single asterisks*
+_single underscores_
+**double asterisks**
+__double underscores__
+++underline++
+~~cancelline~~
+
+## 2.8. 이미지
+```
+![Alt text](/path/to/img.jpg)
+![Alt text](/path/to/img.jpg "Optional title")
+```
+![석촌호수 러버덕](http://cfile6.uf.tistory.com/image/2426E646543C9B4532C7B0)
+![석촌호수 러버덕](http://cfile6.uf.tistory.com/image/2426E646543C9B4532C7B0 "RubberDuck")
