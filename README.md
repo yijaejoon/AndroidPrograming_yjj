@@ -59,7 +59,7 @@ Android Progrmain 과제
 * 이전 커밋을 수정하고 커밋 메시지를 재사용하기
  - git commit -C HEAD - -amend
 
-###### 3. 브랜치
+##### 3. 브랜치
 * 지역 브랜치 목록 보기
  - git branch
 
@@ -111,7 +111,7 @@ Android Progrmain 과제
  - git branch -D <삭제할 브랜치>
   + 삭제할 브랜치가 현재 브랜치에 합쳐지지 않았어도
 
-###### 4. Git이력
+##### 4. Git이력
 
 * 모든 이력 보기
  - git log
@@ -180,6 +180,7 @@ git blame -C -C <파일>
 로그에서 복사와 붙여 넣은 정보 보기
 git log -C -C -p -1 <특정 지점>
 
+##### 5. 원격 저장
 저장소 복제하기
 git clone <저장소>
 
